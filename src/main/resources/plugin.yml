@@ -1,0 +1,16 @@
+name: DonutHomes
+version: 1.0.0
+main: dev.tarna.donuthomes.DonutHomes
+description: A homes plugin similar to the one on DonutSMP.
+author: Tarna
+website: https://github.com/tarna/DonutHomes
+api-version: '1.20.6'
+
+commands:
+  homes:
+    description: The main homes command
+    usage: /homes
+    aliases:
+      - home
+    permission: donuthomes.homes
+    permission-message: You do not have permission to use this command
